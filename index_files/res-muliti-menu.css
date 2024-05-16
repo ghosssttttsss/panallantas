@@ -1,0 +1,1 @@
+.nav ul li span{position:absolute; z-index:1; right:0; top:0; height:23px; display:block; width:30px; text-align:center; cursor:pointer; display:none; background:url(../images/plus-icon.png) no-repeat center center, rgba(0,0,0,0.2);}@media only screen and (max-width:767px){.nav ul li span{display:block;}}

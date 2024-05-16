@@ -1,0 +1,41 @@
+/**
+ * Script Generales Tambor.com.pa
+ * @license Licenciado para Ricardo Pérez, S.A.
+ * @url   http://www.latinolstudio.com
+ * @author  Raul Phillips <raul@latinol.com>
+ * @version 1.1
+ */
+
+$(document).ready(function() {
+
+		  $('.bxslider').bxSlider({
+		    pagerCustom: '#bx-pager'
+		  });
+		  });
+$(document).ready(function() {
+		  $('.bxslider3').bxSlider({
+		    pagerCustom: '#bx-pager2'
+		  });
+		  });
+$(document).ready(function() {
+		  $('.bxslider1').bxSlider({
+			minSlides: 3,
+			maxSlides: 4,
+			moveSlides: 1
+		  });
+		  });
+$(document).ready(function() {
+		  $('.bxslider2').bxSlider({
+			minSlides: 2,
+			maxSlides: 3,
+			moveSlides: 1
+		  });
+
+	});
+	$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+
+$(document).ready(function() {$(".nav ul li ul").parent().prepend('<span></span>');$(".nav ul li span").click(function() {$(this).parent().find('ul').slideToggle('');$(this).parent().find('ul ul').hide();});$('.resmenu').click(function() {$('.nav').slideToggle(); $('.resmenu').toggleClass('resactive'); });});
